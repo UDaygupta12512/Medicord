@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Plus, AlertTriangle, CheckCircle2, X } from 'lucide-react';

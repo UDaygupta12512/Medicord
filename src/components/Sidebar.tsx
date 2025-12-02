@@ -1,6 +1,7 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import {
     LayoutDashboard,
     Pill,
@@ -12,8 +13,6 @@ import {
 } from 'lucide-react';
 
 export default function Sidebar() {
-    // We can use usePathname to highlight the active link if we want, 
-    // but for now let's just stick to the structure.
 
     return (
         <aside className="w-64 glass-dark border-r border-white/10 hidden md:flex flex-col fixed h-full">
